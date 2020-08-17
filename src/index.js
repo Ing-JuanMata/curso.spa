@@ -3,4 +3,4 @@ import getHash from './utils/getHash';
 
 window.addEventListener('load', router);
 
-console.log(getHash());
+window.addEventListener('hashchange', router);
